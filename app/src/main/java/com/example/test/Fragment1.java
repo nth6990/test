@@ -22,9 +22,10 @@ public class Fragment1 extends Fragment {
         Button btn = rootView.findViewById(R.id.btn);
         image = rootView.findViewById(R.id.image);
         btn.setOnClickListener(new View.OnClickListener() {
-            @Override
+                @Override
             public void onClick(View v) {
-                image.setBackgroundColor(Color.rgb(255,0,0));
+                image.setBackgroundColor(Color.rgb(255, 0, 0));
+            }
         });
         return rootView;
     }
